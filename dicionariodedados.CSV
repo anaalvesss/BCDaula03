@@ -1,5 +1,5 @@
 |Tabela,|Campo,|Tipo de Dado,|Chave / Restri��o,|Descri��o|
-|-|-|-|-|
+|-|-|-|-|-|
 |Pacientes,|id_paciente,|INT,|PK (AUTO_INCREMENT),|Identificador do paciente|
 |Pacientes,|nome,|VARCHAR(100),|N�O NULO,|Nome completo do paciente|
 |Pacientes,|cpf,|VARCHAR(11),|N�O NULO,|CPF para faturamento e registro|
