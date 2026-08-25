@@ -1,0 +1,6 @@
+ID_Consulta,ID_Paciente,ID_M�dico,Data_Hora,Valor,Status
+1001,1,101,2026-03-1009:30,R$250,00,Realizada
+1002,2,102,2026-03-1014:00,R$200,00,Realizada
+1003,3,101,2026-03-1110:00,R$250,00,Agendada
+1004,4,103,2026-03-1216:15,R$300,00,Agendada
+1005,1,102,2026-03-1511:30,R$200,00,Cancelada

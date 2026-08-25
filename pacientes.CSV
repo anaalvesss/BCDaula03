@@ -1,0 +1,5 @@
+ID_Paciente,Nome,Data_Nascimento,Genero,Telefone,CPF
+1,Carlos Silva,1985-04-12,M,(11) 98765-4321,123.456.789-00
+2,Ana Souza,1992-08-25,F,(11) 97654-3210,987.654.321-11
+3,Mariana Costa,1978-11-03,F,(21) 96543-2109,456.789.123-22
+4,Roberto Alves,2000-01-15,M,(31) 95432-1098,789.123.456-33
