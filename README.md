@@ -1,26 +1,3 @@
 # BCDaula03
 
-|Tabela|Campo|Tipo de Dado|Chave / Restri��o|Descri��o|
-|-|-|-|-|-|
-|Pacientes|id_paciente|INT|PK (AUTO_INCREMENT)|Identificador �nico do paciente|
-|Pacientes|nome|VARCHAR(100)|N�O NULO|Nome completo do paciente|
-Pacientes|cpf|VARCHAR(11)|N�O NULO|CPF (apenas n�meros) para faturamento e registro �nico|
-Pacientes|data_nascimento|DATE|N�O NULO|Data de nascimento para c�lculo de idade|
-Pacientes|genero|VARCHAR(15)|OPCIONAL|G�nero do paciente (Ex: Masculino Feminino Outro)|
-Pacientes|telefone|VARCHAR(15)|N�O NULO|N�mero de contato telef�nico principal|
-Pacientes|email|VARCHAR(100)|OPCIONAL|Endere�o eletr�nico para notifica��es de consultas|
-M�dicos|id_medico|INT|PK (AUTO_INCREMENT)||Identificador �nico do m�dico|
-M�dicos|nome|VARCHAR(100)|N�O NULO|Nome completo do profissional de sa�de|
-M�dicos|crm|VARCHAR(20)|N�O NULO|N�mero do Conselho Regional de Medicina|
-M�dicos|crm_uf|VARCHAR(2)|N�O NULO|Unidade Federativa do CRM (Ex: SP RJ)|
-M�dicos|especialidade|VARCHAR(50)|N�O NULO�rea de atua��o principal (Ex: Cardiologia Pediatria)|
-M�dicos|telefone|VARCHAR(15)|N�O NULO|Telefone de contato do m�dico|
-M�dicos|email|VARCHAR(100)|OPCIONAL|E-mail institucional ou pessoal|
-M�dicos|status|VARCHAR(15)|'Ativo'|Estado cadastral do m�dico (Ativo / Inativo / Licen�a)|
-Consultas|id_consulta|INT|PK (AUTO_INCREMENT)|Identificador �nico de cada agendamento|
-Consultas|id_paciente|INT|FK (Pacientes)|ID do paciente associado � consulta|
-Consultas|id_medico|INT|FK (M�dicos)|ID do m�dico associado � consulta|
-Consultas|status_consulta|VARCHAR(20)|Situa��o do agendamento (Agendada Confirmada Cancelada Realizada)|
-Consultas|valor|DECIMAL(102)|N�O NULO|Pre�o ou valor estipulado para a consulta m�dica|
-Consultas|motivo|TEXT|OPCIONAL|Breve descri��o dos sintomas relatados ou motivo do contato|
-
+(MER DER dicionário de dados)[MER.png/DER.png]
