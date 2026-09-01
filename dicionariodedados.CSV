@@ -1,11 +1,11 @@
-|Tabela,|Campo,|Tipo de Dado,|Chave / Restricao,|Descricao|
+|Tabela,|Campo,|Tipo de Dado,|Chave | Restricao,|Descricao|
 |-|-|-|-|-|
 |Pacientes,|id_paciente,|INT,|PK (AUTO_INCREMENT),|Identificador do paciente|
 |Pacientes,|nome,|VARCHAR(100),|NAO NULO,|Nome completo do paciente|
 |Pacientes,|cpf,|VARCHAR(11),|NAO NULO,|CPF para faturamento e registro|
 |Pacientes,|data_nascimento,|DATE,|NAO NULO,|Data de nascimento para calcular de idade|
 |Pacientes,|genero,|VARCHAR(15),|OPCIONAL,|Genero do paciente (Ex: Masculino, Feminino, Outro)|
-|Pacientes,|telefone,|VARCHAR(15),|NAO NULO,|Numero de contato telefonico principal|
+|Pacientes,|telefone,|VARCHAR(15),|NAO NULO,|Numero de contato telefonico principal
 |Pacientes,|email,|VARCHAR(100),|OPCIONAL,|Endereco eletronico para notificacoes de consultas|
 |M�dicos,|id_medico,|INT,|PK (AUTO_INCREMENT),||Identificador unico do medico|
 |M�dicos,|nome,|VARCHAR(100),|NAO NULO,|Nome completo do profissional de saude|
@@ -14,7 +14,7 @@
 |M�dicos,|especialidade,|VARCHAR(50),|NAO NULO,Area de atuacao principal (Ex: Cardiologia, Pediatria)|
 |M�dicos,|telefone,|VARCHAR(15),|NAO NULO,|Telefone de contato do medico|
 |M�dicos,|email,|VARCHAR(100),|OPCIONAL,|E-mail institucional ou pessoal|
-|M�dicos,|status,|VARCHAR(15),|'Ativo',|Estado cadastral do medico (Ativo / Inativo / Licenca)|
+|M�dicos,|status,|VARCHAR(15),|'Ativo',|Estado cadastral do medico (Ativo | Inativo | Licenca)|
 |Consultas,|id_consulta,|INT,|PK (AUTO_INCREMENT),|Identificador unico de cada agendamento|
 |Consultas,|id_paciente,|INT,|FK (Pacientes),|ID do paciente associado por consulta|
 |Consultas,|id_medico,|INT,|FK (Medicos),|ID do medico associado a consulta (Chave Estrangeira)|
